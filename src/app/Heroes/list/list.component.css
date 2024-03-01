@@ -1,0 +1,8 @@
+
+.list-group {
+  margin-left: 2px !important; /* Ajusta el margen izquierdo de la lista */
+}
+
+.list-group-item {
+  margin-left: 2% !important; /* Ajusta el margen izquierdo de cada elemento de la lista */
+}
