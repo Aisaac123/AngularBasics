@@ -3,9 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListComponent } from './Heroes/list/list.component';
-import { HeroComponent } from './Heroes/hero/hero.component';
-import { HeroesModule } from './Heroes/heroes.module';
+import { DbzModule } from './dbz/dbz.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +12,7 @@ import { HeroesModule } from './Heroes/heroes.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HeroesModule
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]

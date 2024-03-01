@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Hola Angular';
+  title = 'Bienvenido a la mejor pagina de Dragon bolas en el mundo, hecha en Angular, react Zzzz ';
 }
