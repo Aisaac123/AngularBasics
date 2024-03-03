@@ -18,6 +18,8 @@ export class HeroComponent {
   chageName():void{
     this.name = "Spiderman"
   }
+    public isda:number=234;
+
   changeAge():void{
       this.age = 25;
   }
