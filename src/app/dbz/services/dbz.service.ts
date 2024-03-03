@@ -38,5 +38,6 @@ export class DbzService {
       this.characters[index] = {...new_entity}
     }
   }
+  public isdfa = 234;
   constructor() { }
 }
