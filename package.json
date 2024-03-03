@@ -14,7 +14,7 @@
     "delete:docs": "if exist docs rmdir /s /q docs",
     "delete:dist": "if exist dist rmdir /s /q dist",
     "copy:dist": "md docs && xcopy /s /e dist\\bases\\browser docs\n",
-    "git-commit": "git commit -m \"$npm_config_message\""
+    "git-commit": "set COMMIT_MESSAGE=\"$npm_config_message\" && git commit -m \"%COMMIT_MESSAGE%\""
   },
   "private": true,
   "dependencies": {
