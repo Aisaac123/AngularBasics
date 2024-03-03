@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "deploy:Git": "npm run delete:docs && npm run delete:dist && npm run build:href && npm run copy:dist && npm run delete:dist && git add . && git commit -m 'Despliegue && git push'",
+    "deploy:Git": "npm run delete:docs && npm run delete:dist && npm run build:href && npm run copy:dist && npm run delete:dist && git add . && git commit -m 'Despliegue' && git push",
     "startBr": "ng serve -o",
     "build": "ng build",
     "build:href": "ng build --base-href ./",
