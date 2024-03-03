@@ -1,16 +1,19 @@
-<h1>DBZ personajes</h1>
+<h1>DBZ Personajes</h1>
 
 <hr class="mb-4">
 
 <div class="row">
   <div class="col">
-    <dbz-list></dbz-list>
+    <dbz-list [personajes]="characters" (emitterDeletion)="OnDelete($event)" class="ml-4"></dbz-list>
   </div>
 
   <div class="col">
-
-    <dbz-add-character></dbz-add-character>
-
+    <div class="row">
+      <dbz-add-character (onNewCharacter)="onNewCharacter($event)"></dbz-add-character>
+    </div>
+    <hr class="mt-4">
+    <div class="row">
+      <dbz-update-char (EmitterUpdateChar)="onUpdateCharacter($event)"></dbz-update-char>
+    </div>
   </div>
-
 </div>

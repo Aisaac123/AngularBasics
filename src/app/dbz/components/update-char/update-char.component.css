@@ -1,0 +1,5 @@
+.vl {
+  border-left: 1px solid black; /* Color y grosor de la línea vertical */
+  height: 100%; /* Ajusta la altura de la línea al tamaño de sus contenedores */
+  margin: 0 15px; /* Ajusta los márgenes según sea necesario */
+}

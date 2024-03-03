@@ -1,0 +1,22 @@
+<h4 class="mb-2">Actualizar Personajes</h4>
+<form class="row" (ngSubmit)="emitUpdateChar()">
+  <input
+    placeholder="Name (Old)"
+    class="form-control mb-2 mt-2"
+    [(ngModel)]="Oldname"
+    name="nameOld"
+    type="text">
+   <input
+     placeholder="Name (Update)"
+     class="form-control mb-2 mt-2"
+     [(ngModel)]="HeroUpdate.name"
+     name="name"
+     type="text">
+  <input placeholder="Power (Update)"
+         class="form-control mb-2 mt-2"
+         [(ngModel)]="HeroUpdate.power"
+         name="power"
+         type="text">
+  <button type="submit" class="btn btn-primary mt-4">Actualizar Personaje</button>
+</form>
+
